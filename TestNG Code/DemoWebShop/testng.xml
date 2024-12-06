@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/pratham.shanbhag/Documents/API/DemoWebShop/src/test/java/com/demowebshop/tests/DemoWebShopTest.java">
+        <classes>
+            <class name="com.demowebshop.tests.DemoWebShopTest">
+                <methods>
+                    <include name="test1VerifyHomePageElements"/>
+                    <include name="test2VerifyNewsletterInvalidEmail"/>
+                    <include name="test3VerifyNewsletterSignup"/>
+                    <include name="test4RegisterUser"/>
+                    <include name="test5ValidateLoginWithIncorrectCredentials"/>
+                    <include name="test6LoginUser"/>
+                    <include name="test7VerifyRecentlyViewed"/>
+                    <include name="test8SearchProduct"/>
+                    <include name="test9VerifySortingByName"/>
+                    <include name="test10VerifyViewAsList"/>
+                    <include name="test11VerifyProduct"/>
+                    <include name="test12VerifyAddToWishlist"/>
+                    <include name="test13AddToCart"/>
+                    <include name="test14ChangeProductQuantity"/>
+                    <include name="test15DeleteProduct"/>
+                    <include name="test16VerifyForgotPasswordRedirect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
